@@ -107,7 +107,7 @@ let topPosition = 0;
 document.addEventListener("keydown", (ev) => {
   const { key: eventKey } = ev;
 
-  console.log(eventKey);
+  // console.log(eventKey);
 
   if (eventKey === "ArrowDown") {
     topPosition += 10;
