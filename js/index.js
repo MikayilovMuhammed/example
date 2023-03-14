@@ -100,7 +100,7 @@
 //   document.querySelector("#second").previousElementSibling.textContent
 // );
 // console.log(document.querySelector("#second").textContent);
-// console.log(document.querySelector("#second").nextElementSibling.textContent);
+console.log(document.querySelector("#second").nextElementSibling.textContent);
 
 const snake = document.querySelector("#snake");
 let topPosition = 0;
