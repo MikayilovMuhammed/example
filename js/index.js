@@ -109,6 +109,8 @@ document.addEventListener("keydown", (ev) => {
 
   // console.log(eventKey);
 
+  // Branch
+
   if (eventKey === "ArrowDown") {
     topPosition += 10;
     snake.style.top += `${topPosition}px`;
